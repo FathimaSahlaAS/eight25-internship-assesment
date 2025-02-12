@@ -1,0 +1,99 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eight25-Internship-Assignment</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="empty-space"></div>
+
+    <div class="hero">
+        <div class="logos">
+            <div class="logo-box"><img src="assets/microsoft.png" alt="Microsoft" class="logo logo1"></div>
+            <div class="logo-box"><img src="assets/aws.png" alt="AWS" class="logo logo2"></div>
+            <div class="logo-box"><img src="assets/cisco.png" alt="Cisco" class="logo logo3"></div>
+            <div class="logo-box"><img src="assets/tool1.png" alt="Tool1" class="logo logo4"></div>
+            <div class="logo-box"><img src="assets/tool2.webp" alt="Tool2" class="logo logo5"></div>
+            <div class="logo-box"><img src="assets/tool3.png" alt="Tool3" class="logo logo6"></div>
+            <div class="logo-box"><img src="assets/tool4.png" alt="Tool4" class="logo logo7"></div>
+            <div class="logo-box"><img src="assets/tool5.png" alt="Tool5" class="logo logo8"></div>
+            <div class="logo-box"><img src="assets/tool6.png" alt="Tool6" class="logo logo9"></div>
+            <div class="logo-box"><img src="assets/tool7.png" alt="Tool7" class="logo logo10"></div>
+        </div>
+        <div class="hero-content">
+            <h1>Ideas Galore for Your Creative Team</h1>
+            <p>Leverage our curated tools or build custom integrations</p>
+            <br><br>
+            <button id="discoverBtn" class="cta-button">
+                Discover Success Stories 
+                <span class="arrow">></span>
+            </button>
+        </div>
+    </div>
+    <div class="empty-space"></div>
+
+    <div class="page-transition"></div>
+
+    
+    <div class="bg-mask"></div>
+
+    <div class="container">
+        <div class="left-section">
+           <button class="carousel-arrow carousel-arrow-left"></button>
+        <div class="collab-section">
+            <div class="carousel-container">
+                <img src="assets/gartner.png" alt="Gartner Award" class="gartner-badge">        
+                    <hr class="divider">
+                    
+                    <div class="rating">
+                        <span class="rating-score">4.3</span>
+                        <div class="stars">
+                            <span class="star full">★</span>
+                            <span class="star full">★</span>
+                            <span class="star full">★</span>
+                            <span class="star full">★</span>
+                            <span class="star half">★</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-arrow carousel-arrow-right"></button>
+        </div> 
+    
+        <div class="right-section">
+            <h2 class="title2">Top-Ranked<br>Collaboration Tool</h2>
+            <br>
+            <p class="quote">"As a developer using this platform, I'm impressed. Building workflows<br>
+                 with the ready-made components made the product immediately<br>
+                  valuable."</p>
+        </div>
+    </div>
+    <div class="empty-space"></div>
+
+    <div class="empty-space"></div>
+
+    <section class="hero-section">
+        <div class="background-overlay"></div>
+        <div class="grid-left"></div>
+        <div class="grid-right"></div>
+        <div class="content-wrapper">
+            <h1 class="title">Eager to Begin<br> Your Journey?</h1>
+            <button id="connectBtn" class="cta-button2">Let's Connect</button>
+        </div>
+    </section>
+
+    <script>
+        function navigate(url, message) {
+            alert(message);
+            window.location.href = url;
+        }
+        
+        document.getElementById("discoverBtn").addEventListener("click", () => navigate("#", "Redirecting to Success Stories..."));
+        document.getElementById("connectBtn").addEventListener("click", () => navigate("#", "Redirecting to Contact Page..."));
+    
+    </script>
+</body>
+</html>
